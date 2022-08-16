@@ -2,8 +2,7 @@
 Console.Clear();
 
 Console.Write("Enter number N: ");
-string numberN = (Console.ReadLine() ?? "0");
-int n = Convert.ToInt32(numberN);
+int n = int.Parse(Console.ReadLine() ?? "");
 
 
 int[] CountCubes(int n)
